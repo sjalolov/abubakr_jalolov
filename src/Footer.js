@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import {
+  FaFacebook,
   FaInstagram,
   FaYoutube,
   FaGithub,
@@ -26,6 +27,9 @@ export default function Footer() {
               <i class="fab fa-slack"></i>
             </div>
             <div class="media-icons" >
+              <a href="https://www.facebook.com/" >
+                <FaFacebook style={fontStyles} className="media"/>
+              </a>
               <a href="https://www.instagram.com/abubakr__jalolov/">
                 <FaInstagram style={fontStyles}  className="media"/>
               </a>
